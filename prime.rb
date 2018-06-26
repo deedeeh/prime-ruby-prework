@@ -17,7 +17,7 @@ require 'pry'
 def prime?(num)
   range = (2..num).to_a
   range.each do |i|
-    if num % i == 0
+    if num % i == 0 || num < 2
       false
     end
   end
