@@ -13,9 +13,7 @@
 # end
 
 def prime?(num)
-  range = (2..num).to_a
-  range.find do |i|
-    num % i == 0
-  end
+  result = (2..num).find {|i| num % i == 0}
+  
   
 end
