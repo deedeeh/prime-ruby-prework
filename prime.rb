@@ -17,4 +17,5 @@ def prime?(num)
   range.find do |i|
     num % i == 0
   end
+  
 end
