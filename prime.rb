@@ -23,8 +23,6 @@ def prime?(num)
   end
   if num < 2
     false
-  else 
-    true
   end
 end
 
