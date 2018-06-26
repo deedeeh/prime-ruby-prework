@@ -16,6 +16,7 @@ require 'pry'
 
 def prime?(num)
   result = (2..num).find {|i| num % i == 0}
+  binding.pry
   result == num ? true : false
 end
 
