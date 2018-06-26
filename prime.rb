@@ -1,3 +1,5 @@
+require 'pry'
+
 # Add  code here!
 # def prime?(num)
 #   range = (2..num).to_a
@@ -17,4 +19,4 @@ def prime?(num)
   result == num ? true : false
 end
 
-prime?(3)
+
