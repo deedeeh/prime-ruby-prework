@@ -14,5 +14,7 @@
 
 def prime?(num)
   range = (2..num).to_a
-
+  range.each do |i|
+    num % i == 0
+  end
 end
