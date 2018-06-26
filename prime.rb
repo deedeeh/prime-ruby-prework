@@ -16,9 +16,9 @@ def prime?(num)
   range = (2..num).to_a
   range.each do |i|
     if num % i == 0
-      false
+      return false
     else 
-      true
+      return true
     end
   end
 end
