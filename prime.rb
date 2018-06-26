@@ -21,9 +21,6 @@ def prime?(num)
       false
     end
   end
-  if num < 2
-    false
-  end
 end
 
 
