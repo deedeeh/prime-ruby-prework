@@ -22,6 +22,9 @@ def prime?(num)
       is_prime = false
     end
   end
+  if num < 2
+    is_prime = false
+  end
   return is_prime
 end
 
