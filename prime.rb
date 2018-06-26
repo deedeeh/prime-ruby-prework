@@ -1,4 +1,4 @@
 # Add  code here!
-def prime?(n)
-range = (2..n).to_a  
+def prime?(num)
+range = (2..num).to_a  
 end
