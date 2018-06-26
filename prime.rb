@@ -14,6 +14,6 @@
 
 def prime?(num)
   result = (2..num).find {|i| num % i == 0}
-  
+  result == n 
   
 end
