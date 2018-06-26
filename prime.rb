@@ -19,7 +19,7 @@ def prime?(num)
   is_prime = true
   range.each do |i|
     if num % i == 0 
-      false
+      is_prime = false
     end
   end
 end
