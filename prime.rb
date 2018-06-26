@@ -21,4 +21,7 @@ def prime?(num)
       return true
     end
   end
+  if num < 2
+    false
+  end
 end
