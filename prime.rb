@@ -4,5 +4,6 @@ def prime?(num)
   if num < 2
     false
   end
-  
+  range.each do |i|
+    if num % 
 end
