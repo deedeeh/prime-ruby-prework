@@ -5,4 +5,5 @@ def prime?(num)
   if num < 2
     false
   end
+  return true_or_false
 end
